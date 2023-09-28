@@ -5,7 +5,7 @@ ___
 
 ✅ [Strategy](chapter_1) 
 
-☑️ Observer
+☑️ [Observer](chapter_2)
 
 ☑️ Decorator
 
