@@ -7,7 +7,7 @@ ___
 
 ✅ [Observer](chapter_2)
 
-☑️ Decorator
+✅ [Decorator](chapter_3)
 
 ☑️ Factory
 
