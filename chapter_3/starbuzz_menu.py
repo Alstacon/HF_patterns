@@ -10,7 +10,7 @@ class Espresso(Beverage):
         'LARGE': 2.15,
     }
 
-    def __init__(self, size: str):
+    def __init__(self, size: str) -> None:
         super().__init__(size)
         self.description = 'Espresso'
 
@@ -25,7 +25,7 @@ class HouseBlend(Beverage):
         'LARGE': 1.15,
     }
 
-    def __init__(self, size: str):
+    def __init__(self, size: str) -> None:
         super().__init__(size)
         self.description = 'House Blend Coffee'
 

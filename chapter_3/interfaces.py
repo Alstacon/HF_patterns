@@ -10,11 +10,11 @@ class Beverage(ABC):
         return self.description
 
     @property
-    def size(self):
+    def size(self) -> str:
         return self._size
 
     @size.setter
-    def size(self, size: int):
+    def size(self, size: int) -> None:
         self._size = size
 
     @abstractmethod
@@ -24,7 +24,7 @@ class Beverage(ABC):
 
 class CondimentDecorator(Beverage, ABC):
 
-    def __init__(self, beverage: Beverage):
+    def __init__(self, beverage: Beverage) -> None:
         super().__init__()
         self.beverage = beverage
         self.size = self.beverage.size
