@@ -9,7 +9,7 @@ ___
 
 ✅ [Decorator](chapter_3)
 
-☑️ Factory
+✅️ [Factory](chapter_4)
 
 ☑️ Singleton
 

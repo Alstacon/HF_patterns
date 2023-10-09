@@ -1,0 +1,3 @@
+class UnknownPizzaError(BaseException):
+    NotImplementedError()
+
