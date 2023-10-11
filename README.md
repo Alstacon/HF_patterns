@@ -11,7 +11,7 @@ ___
 
 ✅️ [Factory](chapter_4)
 
-☑️ Singleton
+✅ [Singleton](chapter_5)
 
 ☑️ Command
 
