@@ -13,7 +13,7 @@ ___
 
 ✅ [Singleton](chapter_5)
 
-☑️ Command
+✅ [Command](chapter_6)
 
 ☑️ Adapter
 
