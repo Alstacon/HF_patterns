@@ -63,12 +63,8 @@ def use_rm_control():
     control.off_button_pushed(1)
     print('-' * 10)
 
-
-
     control.on_button_pushed(2)
     print('-' * 10)
-
-
 
 
 if __name__ == '__main__':

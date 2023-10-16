@@ -15,9 +15,9 @@ ___
 
 ✅ [Command](chapter_6)
 
-☑️ Adapter
+✅️ [Adapter](chapter_7)
 
-☑️ Facade
+✅ [Facade](chapter_7)
 
 ☑️ Template Method
 
