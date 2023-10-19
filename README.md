@@ -19,7 +19,7 @@ ___
 
 ✅ [Facade](chapter_7)
 
-☑️ Template Method
+✅ [Template Method](chapter_8)
 
 ☑️ Iterator
 
