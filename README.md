@@ -21,7 +21,7 @@ ___
 
 ✅ [Template Method](chapter_8)
 
-☑️ Iterator
+✅ [Iterator](chapter_9/9.1)
 
 ☑️ Composite
 
