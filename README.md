@@ -25,7 +25,7 @@ ___
 
 ✅️ [Composite](chapter_9/9.2)
 
-☑️ State
+✅️ [State](chapter_10)
 
 ☑️ Proxy
 
