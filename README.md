@@ -27,6 +27,6 @@ ___
 
 ✅️ [State](chapter_10)
 
-☑️ Proxy
+✅️️ [Proxy](chapter_11)
 
 ☑️ Model-View-Controller

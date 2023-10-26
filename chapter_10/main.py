@@ -1,4 +1,4 @@
-from machine_class import GumballMachine
+from chapter_10.machine_class import GumballMachine
 
 
 def start_state():
