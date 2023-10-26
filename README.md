@@ -23,7 +23,7 @@ ___
 
 ✅ [Iterator](chapter_9/9.1)
 
-☑️ Composite
+✅️ [Composite](chapter_9/9.2)
 
 ☑️ State
 
