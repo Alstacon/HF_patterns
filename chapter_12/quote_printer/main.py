@@ -10,7 +10,7 @@ quotes = (
 
 
 class QuoteModel:
-    def __init__(self, quote_storage: Sequence):
+    def __init__(self, quote_storage: Sequence) -> None:
         self.quotes = quote_storage
 
     def get_quote(self, index: int) -> str:
@@ -21,14 +21,14 @@ class QuoteModel:
             result = 'Not found'
         return result
 
-    def validate_index(self, index: str):
+    def validate_index(self, index: str) -> int:
         try:
             index = int(index)
         except ValueError:
             raise ValueError
         return index
 
-    def get_random_quote(self):
+    def get_random_quote(self) -> str:
         return self.quotes[randint(0, len(quotes) - 1)]
 
 
@@ -39,16 +39,16 @@ class QuoteTerminalView:
     def error(self, msg: str) -> None:
         print(f'''Error: {msg}''')
 
-    def select_quote(self):
+    def select_quote(self) -> str:
         return input('''What quote number would you like to see?\nEnter 'r' to see a random quote.\n''')
 
 
 class QuoteTerminalController:
-    def __init__(self):
+    def __init__(self) -> None:
         self.model = QuoteModel(quotes)
         self.view = QuoteTerminalView()
 
-    def run(self):
+    def run(self) -> None:
         valid_input = False
         while not valid_input:
             index = self.view.select_quote()
@@ -64,7 +64,7 @@ class QuoteTerminalController:
         self.view.show(quote)
 
 
-def main():
+def main() -> None:
     controller = QuoteTerminalController()
     while True:
         controller.run()
@@ -72,6 +72,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
